@@ -4,7 +4,7 @@ var ae = {};
 var cnt_arr = [];
 
 // build cse
-cse.host        = '192.168.0.68';
+cse.host        = 'localhost';
 cse.port        = '7579';
 cse.name        = 'mobius-yt';
 cse.id          = '/mobius-yt';
