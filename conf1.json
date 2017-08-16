@@ -1,0 +1,103 @@
+{
+    "useprotocol": "http",
+    "upload_interval": 600000,
+    "usesecure": "disable",
+    "cse": {
+        "host": "localhost",
+        "port": "7579",
+        "name": "mobius-yt",
+        "id": "/mobius-yt",
+        "mqttport": "1883"
+    },
+    "ae": {
+        "id": "sejongcampus",
+        "parent": "/mobius-yt",
+        "name": "sejongcampus",
+        "appid": "SOrigin",
+        "port": "9727",
+        "bodytype": "xml",
+        "tasport": "3105"
+    },
+    "cnt": [
+        {
+            "parent": "/mobius-yt/sejongcampus",
+            "name": "Jiphyun_gwan"
+        },
+        {
+            "parent": "/mobius-yt/sejongcampus/Jiphyun_gwan",
+            "name": "CO2"
+        },
+        {
+            "parent": "/mobius-yt/sejongcampus",
+            "name": "Gunja_gwan"
+        },
+        {
+            "parent": "/mobius-yt/sejongcampus/Gunja_gwan",
+            "name": "CO2"
+        },
+        {
+            "parent": "/mobius-yt/sejongcampus",
+            "name": "Gwanggaeto_gwan"
+        },
+        {
+            "parent": "/mobius-yt/sejongcampus/Gwanggaeto_gwan",
+            "name": "CO2"
+        },
+        {
+            "parent": "/mobius-yt/sejongcampus",
+            "name": "Sejong_gwan"
+        },
+        {
+            "parent": "/mobius-yt/sejongcampus/Sejong_gwan",
+            "name": "CO2"
+        },
+        {
+            "parent": "/mobius-yt/sejongcampus",
+            "name": "Yongduk_gwan"
+        },
+        {
+            "parent": "/mobius-yt/sejongcampus/Yongduk_gwan",
+            "name": "CO2"
+        },
+        {
+            "parent": "/mobius-yt/sejongcampus",
+            "name": "Yulgok_gwan"
+        },
+        {
+            "parent": "/mobius-yt/sejongcampus/Yulgok_gwan",
+            "name": "CO2"
+        },
+        {
+            "parent": "/mobius-yt/sejongcampus",
+            "name": "Chungmu_gwan"
+        },
+        {
+            "parent": "/mobius-yt/sejongcampus/Chungmu_gwan",
+            "name": "CO2"
+        },
+        {
+            "parent": "/mobius-yt/sejongcampus",
+            "name": "Youngsil_gwan"
+        },
+        {
+            "parent": "/mobius-yt/sejongcampus/Youngsil_gwan",
+            "name": "CO2"
+        },
+        {
+            "parent": "/mobius-yt/sejongcampus",
+            "name": "University_Library"
+        },
+        {
+            "parent": "/mobius-yt/sejongcampus/University_Library",
+            "name": "CO2"
+        },
+        {
+            "parent": "/mobius-yt/sejongcampus",
+            "name": "Student_Building"
+        },
+        {
+            "parent": "/mobius-yt/sejongcampus/Student_Building",
+            "name": "CO2"
+        }
+    ]
+}

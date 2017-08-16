@@ -75,7 +75,7 @@ exports.calculatePeople = function(){
 
         getPeople(getCurrentHour());
 
-    }, 10000);
+    }, 60000);
 };
 
 function getCurrentHour(){
