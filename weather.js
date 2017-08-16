@@ -104,7 +104,7 @@ exports.weatherInfo = function(){
           sendHumidity(hum);          
         }
     });
-    }, 60000);
+    }, 600000);
     setInterval(function Get_Data() {
         // console.log("Temprature Interval");
         //getWeatherInfo();
@@ -114,5 +114,5 @@ exports.weatherInfo = function(){
           sendTemprature(temp);
         }
     });
-    }, 60000);
+    }, 600000);
 };
