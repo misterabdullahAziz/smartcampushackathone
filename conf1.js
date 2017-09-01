@@ -5,7 +5,7 @@ var cnt_arr = [];
 
 
 conf.useprotocol = 'http';
-conf.upload_interval = (10 * 60 * 1000);   //minute * second * millisecond
+conf.upload_interval = (3 * 60 * 1000);   //minute * second * millisecond
 
 // build cse
 cse.host        = 'localhost';

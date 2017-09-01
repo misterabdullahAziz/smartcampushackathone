@@ -132,6 +132,6 @@ exports.sjuBuildingNoiseLevel = function(){
     setInterval(function Get_Data() {
         console.log("Sound-Data");
         generateNoiseData();
-    }, 600000);
+    }, 180000);
 };
 
